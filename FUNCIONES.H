@@ -1,0 +1,13 @@
+float validarFloatRango(float a, float b);
+void leercadena(char *cadena, int n);
+void recortarCadena(char *cad);
+int compararCadenas(char *cad1, char *cad2);
+void copiarCadena(char *destino, char *origen);
+void registrarProducto(int *id, char nombres[][100], int *demanda, float *tiempo_u, float *recursos_u, int *contP);
+int existeNombre(char nombres[][100], int contP, char *nombre, int ignorar);
+void leerNombreProducto(char nombres[][100], int contP, char *destino, int ignorar);
+void mostrarProductos(int *id, char nombres[][100], int *demanda, float *tiempo_u, float *recursos_u, int n, int contP);
+int buscarProducto(int *id, char nombres[][100], int *demanda, float *tiempo_u, float *recursos_u, int contP);
+void editarProducto(int *id, char nombres[][100], int *demanda, float *tiempo_u, float *recursos_u, int contP);
+void eliminarProducto(int *id, char nombres[][100], int *demanda, float *tiempo_u, float *recursos_u, int *contP);
+void evaluarViabilidad(int *demanda, float *tiempo_u, float *recursos_u, int contP);
